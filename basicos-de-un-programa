@@ -1,0 +1,57 @@
+/**
+This block of code sets the environment in place 
+the instructions there are not executed
+only once (at the start of the program)
+**/
+
+function setup() {
+//  This line is a comment: it will not be read
+//  when running the program
+//  A comment begins with `//`. You can (must)
+//  comment on your program to explain how it works
+//  to a human reader
+  
+// El programa se compone de instrucciones que afectan el estado del programa.
+//  La instrucción a continuación, por ejemplo, crea una ventana gráfica de 400x400 píxeles
+  
+  createCanvas(400, 400);
+// Las instrucciones están separadas por `;`
+// Esta segunda instrucción colorea el fondo de la ventana en gris claro.
+}
+
+
+
+/**
+  * This block of code is used to draw the content of the screen,
+  * the instructions
+  */
+
+function draw() {
+  
+  background(220);
+// Un bloque de código está definido por "{}".
+   // Los bloques se pueden anidar a voluntad
+   {// Inicio del bloque 1
+     {// Inicio del bloque 2
+     } // Fin del bloque 2
+   } // Fin del bloque 1
+  
+  // TODO: Delete the comments individually (//)
+     // at the start of each line and test the program
+// ellipse (mouseX, mouseY, 40, 70);
+// rect (mouseX-10, mouseY-10, 20, 20);
+
+// TODO: Delete the comments from one of the two lines below, according to your color tastes
+// fill ('red');
+// fill ('green');
+  
+//Spanish:
+// TODO: Eliminar los comentarios individualmente (//)
+     // al comienzo de cada línea y prueba el programa
+// elipse (mouseX, mouseY, 20, 20);
+// recta (mouseX-10, mouseY-10, 20, 20);
+
+// TODO: Elimina los comentarios de una de las dos líneas siguientes, según tus gustos de color
+// llenar ('rojo');
+// llenar ('verde');
+}
